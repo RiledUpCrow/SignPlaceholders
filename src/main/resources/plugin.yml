@@ -1,0 +1,15 @@
+name: SignPlaceholders
+main: pl.betoncraft.signplaceholders.SignPlaceholders
+description: PlaceholderAPI variables on signs.
+authors: [Co0sh]
+website: http://github.com/Co0sh/SignPlaceholders
+depend: [PlaceholderAPI]
+version: 0.1.0
+commands:
+  signplaceholders:
+    description: Manage signs.
+    permission: signplaceholders.admin
+    aliases: [sph]
+permissions:
+  signplaceholders.admin:
+    default: op
